@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Image Gallery WEBUTV1</h1>
+  <p>Made By:                                           Alexander Aziz.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://www.androidauthority.com/wp-content/uploads/2023/02/grapheneos-boot-animation.jpg" style="width:100%">
+    <img src="https://www.kaspersky.com/content/en-global/images/repository/isc/2021/encryption-1.jpg" style="width:100%">
+    <img src="https://www.komplett.se/img/p/1015/1179192.jpg" style="width:100%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/TAILS_5.18_desktop_with_Tor_Browser.png" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="https://i.ytimg.com/vi/HvzUeDoG_J0/sddefault.jpg" style="width:100%">
+    <img src="https://forum.f-droid.org/uploads/default/original/2X/2/24d09216ddbcce4cded5300d0ddd346f48f1b6a3.jpeg" style="width:100%">
+    <img src="https://www.zdnet.com/a/img/resize/48b06526656fabea52176eee609639ba77c5335f/2022/03/01/db3a392d-0cee-4fd8-81dc-364e6825168e/zd-data-protection-and-privacy.jpg?auto=webp&fit=crop&height=1200&width=1200" style="width:100%">
+    <img src="https://cdn-bhgin.nitrocdn.com/fYiCbyekuWxdwsIavStGyhFBtSFZmwkM/assets/images/optimized/rev-d2c28e2/d2z0k1elb7rxgj.cloudfront.net/uploads/2019/12/data-privacy-example-1024x768.jpg" style="width:100%">
+    <img src="https://f-droid.org/repo/com.aurora.store/en-US/icon_tbAhwq51NNd0liZcTg0cQNNvazxrWlj7bPCe_1TkCV8=.png" style="width:100%">
+    <img src="https://media.licdn.com/dms/image/D5612AQEiQYsi9CPzdA/article-cover_image-shrink_600_2000/0/1687436360962?e=2147483647&v=beta&t=Ino2t7Ya8CFDCg9U7tbk8BU6gQ1nkrqTfoj-3OAW2zk" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="https://ftp.fau.de/fdroid/repo/de.storchp.fdroidbuildstatus/en-US/icon_BjZc__1cdhl83pzysGZYTqUiQ5uk_EH5feOHTxps1d8=.png" style="width:100%">
+    <img src="https://www.umo.se/contentassets/3cc370bb17b24c5fa79caeab5efb61dc/sekretess-och-tystnadsplikt_1666x1110.png" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/PMCMS/ubifigl6gugkxmfxdtrtzq.jpg" style="width:100%">
+    <img src="https://fbijohn.com/wp-content/uploads/2023/06/FBI_headpic-1024x576.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
+
